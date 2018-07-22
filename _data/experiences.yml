@@ -1,0 +1,45 @@
+- experience:
+  role: Software Developer
+  time: June 2017 - August 2017
+  company: "Data Mining and Informatics Lab, Arizona State University"
+  projects:
+
+      - title_left: "PubMed Scraper &mdash; <em>A multithreaded application for PubMed data extraction</em>"
+        #title_right: "<a href='https://github.com/diging/amphora'>GitHub</a>"
+        details:
+            - "Designed the architecture of a full stack application to extract PubMed data using FTP"
+            - "Added functionality to search and filter articles by author names, topics, locations and publication year"
+            - "Parsed the obtained XML data to establish a curated dataset for Geo-Spatial data analysis"
+            - "Performed topic-modeling on the full text of the articles"
+            - "<em>Technologies</em>: Python, Postgres, Scikit-Learn"
+
+      - title_left: 'Author-Name Disambiguator'
+        details:
+            - "Engineered a decison-tree algorithm which disambiguates author names in the dataset"
+            - "Utilized metrics such as co-authors, location, topics of publication, years active and institution to build the decison-tree"
+            - "Technologies: Python, NLTK"
+
+- experience:
+  role: Software Engineer
+  time: July 2015 - June 2016
+  company: Cerner Corporation, Bengaluru, India
+  details:
+      - "Extensively used Java in developing server applications and database services providing APIs to fetch the required data"
+      - "Wrote JUnit test cases for all the Java projects to automate the testing of different workflows"
+      - "Performed SQL query optimization and code optimization in the server application, reducing response time by 50%"
+      - "Refactored the existing C++ code to utilize the optimized Java services APIs reducing the application load time by 3 seconds on an average"
+      - "Involved in the development of crucial business logic for the Diagnosis-Assistant tool by developing modules to map the different Problems/Diagnosis codes. This helped hospitals transition to ICD-10 Problems/Diagnosis codes in the USA."
+      - "Worked in an Agile environment with each sprint lasting 3 weeks"
+      - "<em>Technologies</em>: Java, C++, JavaScript, SQL"
+
+- experience:
+  role: Software Engineer Intern
+  time: February 2015 - July 2015
+  company: Cerner Corporation, Bengaluru, India
+  projects:
+
+      - title_left: "PowerOrders"
+        details:
+          - "Responsible for full-stack development of a tool to enable nurses/doctors to order medications for patients quickly"
+          - "Implemented search algorithms and scheduling algorithms to schedule proper dosages for patients"
+          - "<em>Technologies</em>: Java, JavaScript, SQL"

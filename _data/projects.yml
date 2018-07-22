@@ -1,0 +1,49 @@
+- project:
+  title: Image Recognition-as-a-Service
+  title_right: '<a href="https://github.com/Rahulrrao/ImageRecognition-as-a-Service">GitHub</a>'
+  tagline: "<ul>
+                <li>Designed and Developed a full stack web application using Java Spring Boot offering web services to perform image recognition in the cloud using REST APIs</li>
+                <li>Followed Service Oriented Architecture principles to build a scalable, loosely coupled SaaS (Software-as-a-Service) application </li>
+                <li>Implemented a load balancer to dynamically and gracefully scale-up and scale-down the worker pools (EC2 instances performing image recognition) based on the number of requests in the SQS queue</li>
+                <li>Deployed the web-server on an EC2 instance using NginX reverse proxy and stored the results in a S3 bucket.</li>
+                <li>Technologies and Services: Java Spring Boot, Python, AWS EC2, SQS, S3 </li>
+            </ul>"
+- project:
+  title: "Business Trend Visualization using Yelp Data"
+  title_right: '<a href="https://github.com/Rahulrrao/DataVisualization">GitHub</a>/<a href="https://www.youtube.com/watch?v=v82B-pqb4Gg">Video</a>'
+  tagline: "<ul>  
+                <li>Analyzed and created interactive visualizations of business patterns of restaurants to help owners assess their business</li>
+                <li>Allows users to compare restaurants with neighboring and identical restaurants using k-Nearest Neighbor algorithm</li>
+                <li>Performed sentiment analysis on reviews to visualize dynamic wordles to identify the negative and positive aspects of the restaurant.</li>
+                <li>Ability to observe seasonal/monthly trends and take appropriate business decisions based on the visualizations. </li>
+                <li>Technologies: Python, NLTK, D3.js, crossfilter.js, node.js, MongoDB</li>
+            </ul>"
+- project:
+  title: "Path Finder on Multi-Dimensional Graph Database"
+  title_right: '<a href="https://github.com/Rahulrrao/GraphDB">GitHub</a>'
+  tagline: "<ul>
+                <li>Applied graph database concepts to transform a RDBMS to a Graph database </li>
+                <li>Implemented and compared different algorithms to find all possible paths between the nodes using different types of joins, indexes and query optimization strategies</li>
+                <li>Implemented Z-Order indexing algorithm to find all possible neighbor nodes in a multidimensional space within a given distance</li>
+                <li>Technologies: Java
+            </ul>"
+
+- project:
+  title: "Distributed Database Geospatial Computation"
+  title_right: '<a href="https://github.com/Rahulrrao/Geospatial-Traffic-Analysis">GitHub</a>'
+  tagline: "<ul>
+                <li>Performed Spatio-temporal analysis on New York City Yellow Cab Taxi dataset to obtain the top 50 hotspots in a distributed environment</li>
+                <li>Used Apache Hadoop distributed file system and Apache Spark's MapReduce and SparkSQL queries to identify the hotspots using Getis-Ord statistic </li>
+                <li>Setup a master-slave environment with 2 workers and 1 master node on AWS using password-less SSH to test the queries</li>
+                <li>Technologies: Scala, Apache Spark, SparkSQL, Apache Hadoop, HDFS, MapReduce</li>
+            </ul>"
+
+- project:
+  title: "Dynamic Scheduler using Google Cloud Platform"
+  title_right: '<a href="https://github.com/Rahulrrao/DynamicSchedulerUsingGCP">GitHub</a>'
+  tagline: "<ul>
+                <li>Designed and developed a Python Flask web application to provide Scheduling-as-a-Service using rule-based learning technique called Answer-Set Programming</li>
+                <li>Utilized docker containers deployed on an auto-scaling Google Kubernetes Engine to serve the user requests through REST APIs</li>
+                <li>Built an Android application which enables users to use the service provided in the cloud using REST calls to obtain a customized schedule</li>
+                <li>Technologies: Python Flask, Google Kubernetes Engine, Android, Google DataStore</li>
+            </ul>"

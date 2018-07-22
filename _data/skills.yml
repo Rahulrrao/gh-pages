@@ -1,0 +1,16 @@
+- skill:
+  name: Java, Spring
+  level: 98%
+- skill:
+  name: C++, Python
+  level: 80%
+- skill:
+  name: JavaScript, Docker, MongoDB
+  level: 60%
+- skill:
+  name: Git, SQL
+  level: 85%
+- skill:
+  name: Apache Hadoop, Apache Spark, MapReduce
+  level: 70%
+

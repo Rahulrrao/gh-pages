@@ -1,0 +1,57 @@
+{% if site.data.experiences %}
+<section class="section experiences-section">
+  <h2 class="section-title"><i class="fa fa-briefcase"></i>Experience</h2>
+
+{% for experience in site.data.experiences %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="job-title">{{ experience.role }}</h3>
+        <div class="time">{{ experience.time }}</div>
+      </div><!--//upper-row-->
+
+      <div class="company">{{ experience.company }}</div>
+
+    </div><!--//meta-->
+
+    {% if experience.details %}
+    <div class="details">
+      <ul>
+        {% for line in experience.details %}
+          <li>{{ line }}</li>
+        {% endfor %}
+      </ul>
+    </div><!--//details-->
+    {% endif %}
+
+    {% if experience.projects %}
+        <ul>
+            {% for project in experience.projects %}
+            <li>
+                {% if project.title_right %}
+                <div class='emp-project-title dotted-line'>
+                {% else %}
+                <div class='emp-project-title'>
+                {% endif %}
+                    <span style='padding-right: 2px'>{{ project.title_left }}</span>
+                    {% if project.title_right %}
+                    <span style='padding-left: 5px;float:right'>{{ project.title_right }}</span>
+                    {% endif %}
+                </div>
+                <ul>
+                    {% for line in project.details %}
+                        <li>{{ line }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+  </div><!--//item-->
+{% endfor %}
+
+</section><!--//section-->
+{% endif %}
